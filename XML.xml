@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xslt.xsl"?>
+<company>
+    <products>
+        <!-- 
+        important notes for me later to write schema accordingly
+        1. the code attribute should only contain positive numbers and unique according to the brief
+        2. only integers should be in quantity 
+        3. the discount element should have only two values, either true or false (boolean)
+        4. the unit_price should only be positive integers 
+        5. no symbols are allowed in any element 
+        -->
+        <product code="000-01">
+            <category>Laptops</category>
+            <name>Dell</name>
+            <description>2 GB laptop with 128 GB storage capacity.</description>
+            <size>15.6 inch</size>
+            <color>White</color>
+            <quantity>20</quantity>
+            <unit_price currency="Euros">99.99</unit_price>
+            <discount>false</discount>
+        </product>
+        <product code="000-02">
+            <category>Laptops</category>
+            <name>Asus</name>
+            <description>4 GB laptop with 250 GB storage capacity.</description>
+            <size>15.6 inch</size>
+            <color>Grey</color>
+            <quantity>20</quantity>
+            <unit_price currency="Euros">149.99</unit_price>
+            <discount>false</discount>
+        </product>
+        <product code="000-03">
+            <category>Laptops</category>
+            <name>Acer</name>
+            <description>8 GB laptop with 250 GB storage capacity.</description>
+            <size>15.6 inch</size>
+            <color>White</color>
+            <quantity>20</quantity>
+            <unit_price currency="Euros">499.99</unit_price>
+            <discount>false</discount>
+        </product>
+        <product code="000-04">
+            <category>Laptops</category>
+            <name>Apple</name>
+            <description>32 GB laptop with 128 GB storage capacity.</description>
+            <size>15.6 inch</size>
+            <color>White</color>
+            <quantity>20</quantity>
+            <unit_price currency="Euros">699.99</unit_price>
+            <discount>false</discount>
+        </product>
+        <product code="000-05">
+            <category>Laptops</category>
+            <name>HP</name>
+            <description>16 GB laptop with 1250 GB storage capacity.</description>
+            <size>15.6 inch</size>
+            <color>White</color>
+            <quantity>20</quantity>
+            <unit_price currency="Euros">163</unit_price>
+            <discount>false</discount>
+        </product>
+        <product code="000-06">
+            <category>Laptops</category>
+            <name>Dell</name>
+            <description>32 GB laptop with 128 GB storage capacity.</description>
+            <size>15.6 inch</size>
+            <color>White</color>
+            <quantity>20</quantity>
+            <unit_price currency="Euros">1024</unit_price>
+            <discount>false</discount>
+        </product>
+        <product code="000-07">
+            <category>Laptops</category>
+            <name>Lenovo</name>
+            <description>32 GB laptop with 128 GB storage capacity.</description>
+            <size>15.6 inch</size>
+            <color>White</color>
+            <quantity>20</quantity>
+            <unit_price currency="Euros">2234</unit_price>
+            <discount>false</discount>
+        </product>
+        <product code="000-08">
+            <category>Laptops</category>
+            <name>Clevo</name>
+            <description>32 GB laptop with 128 GB storage capacity.</description>
+            <size>15.6 inch</size>
+            <color>White</color>
+            <quantity>20</quantity>
+            <unit_price currency="Euros">547</unit_price>
+            <discount>false</discount>
+        </product>
+        <product code="000-09">
+            <category>Laptops</category>
+            <name>Evoo</name>
+            <description>32 GB laptop with 128 GB storage capacity.</description>
+            <size>15.6 inch</size>
+            <color>White</color>
+            <quantity>20</quantity>
+            <unit_price currency="Euros">456</unit_price>
+            <discount>false</discount>
+        </product>
+        <product code="000-10">
+            <category>Laptops</category>
+            <name>Digital Storm</name>
+            <description>32 GB laptop with 128 GB storage capacity.</description>
+            <size>15.6 inch</size>
+            <color>White</color>
+            <quantity>20</quantity>
+            <unit_price currency="Euros">329</unit_price>
+            <discount>false</discount>
+        </product>
+        <product code="000-11">
+            <category>Laptops</category>
+            <name>Lenovo</name>
+            <description>32 GB laptop with 128 GB storage capacity.</description>
+            <size>15.6 inch</size>
+            <color>White</color>
+            <quantity>20</quantity>
+            <unit_price currency="Euros">897</unit_price>
+            <discount>false</discount>
+        </product>
+        <product code="000-12">
+            <category>Laptops</category>
+            <name>Clevo</name>
+            <description>32 GB laptop with 128 GB storage capacity.</description>
+            <size>15.6 inch</size>
+            <color>White</color>
+            <quantity>20</quantity>
+            <unit_price currency="Euros">362</unit_price>
+            <discount>false</discount>
+        </product>
+        <product code="000-13">
+            <category>Laptops</category>
+            <name>Evoo</name>
+            <description>32 GB laptop with 128 GB storage capacity.</description>
+            <size>15.6 inch</size>
+            <color>White</color>
+            <quantity>20</quantity>
+            <unit_price currency="Euros">523</unit_price>
+            <discount>false</discount>
+        </product>
+        <product code="000-14">
+            <category>Laptops</category>
+            <name>Digital Storm</name>
+            <description>32 GB laptop with 128 GB storage capacity.</description>
+            <size>15.6 inch</size>
+            <color>White</color>
+            <quantity>20</quantity>
+            <unit_price currency="Euros">235</unit_price>
+            <discount>false</discount>
+        </product>
+        <product code="000-15">
+            <category>Laptops</category>
+            <name>Dell</name>
+            <description>2 GB laptop with 128 GB storage capacity.</description>
+            <size>15.6 inch</size>
+            <color>White</color>
+            <quantity>20</quantity>
+            <unit_price currency="Euros">457</unit_price>
+            <discount>false</discount>
+        </product>
+        <product code="000-16">
+            <category>Laptops</category>
+            <name>Asus</name>
+            <description>4 GB laptop with 250 GB storage capacity.</description>
+            <size>15.6 inch</size>
+            <color>Grey</color>
+            <quantity>20</quantity>
+            <unit_price currency="Euros">149.99</unit_price>
+            <discount>false</discount>
+        </product>
+        <product code="000-17">
+            <category>Laptops</category>
+            <name>Acer</name>
+            <description>8 GB laptop with 250 GB storage capacity.</description>
+            <size>15.6 inch</size>
+            <color>White</color>
+            <quantity>20</quantity>
+            <unit_price currency="Euros">99.99</unit_price>
+            <discount>false</discount>
+        </product>
+        <product code="000-18">
+            <category>Laptops</category>
+            <name>Apple</name>
+            <description>32 GB laptop with 128 GB storage capacity.</description>
+            <size>15.6 inch</size>
+            <color>White</color>
+            <quantity>20</quantity>
+            <unit_price currency="Euros">346</unit_price>
+            <discount>false</discount>
+        </product>
+        <product code="000-19">
+            <category>Laptops</category>
+            <name>HP</name>
+            <description>32 GB laptop with 128 GB storage capacity.</description>
+            <size>15.6 inch</size>
+            <color>White</color>
+            <quantity>20</quantity>
+            <unit_price currency="Euros">1044</unit_price>
+            <discount>false</discount>
+        </product>
+        <product code="000-20">
+            <category>Laptops</category>
+            <name>Dell</name>
+            <description>32 GB laptop with 128 GB storage capacity.</description>
+            <size>15.6 inch</size>
+            <color>White</color>
+            <quantity>20</quantity>
+            <unit_price currency="Euros">600</unit_price>
+            <discount>false</discount>
+        </product>
+        <product code="000-21">
+            <category>Laptops</category>
+            <name>Lenovo</name>
+            <description>32 GB laptop with 128 GB storage capacity.</description>
+            <size>15.6 inch</size>
+            <color>White</color>
+            <quantity>20</quantity>
+            <unit_price currency="Euros">99.99</unit_price>
+            <discount>false</discount>
+        </product>
+        <product code="000-22">
+            <category>Laptops</category>
+            <name>Clevo</name>
+            <description>32 GB laptop with 128 GB storage capacity.</description>
+            <size>15.6 inch</size>
+            <color>White</color>
+            <quantity>20</quantity>
+            <unit_price currency="Euros">99.99</unit_price>
+            <discount>false</discount>
+        </product>
+        <product code="000-23">
+            <category>Laptops</category>
+            <name>Evoo</name>
+            <description>32 GB laptop with 128 GB storage capacity.</description>
+            <size>15.6 inch</size>
+            <color>White</color>
+            <quantity>20</quantity>
+            <unit_price currency="Euros">345</unit_price>
+            <discount>false</discount>
+        </product>
+        <product code="000-24">
+            <category>Laptops</category>
+            <name>Digital Storm</name>
+            <description>32 GB laptop with 128 GB storage capacity.</description>
+            <size>15.6 inch</size>
+            <color>White</color>
+            <quantity>20</quantity>
+            <unit_price currency="Euros">99.99</unit_price>
+            <discount>false</discount>
+        </product>
+        <product code="000-25">
+            <category>Laptops</category>
+            <name>Lenovo</name>
+            <description>32 GB laptop with 128 GB storage capacity.</description>
+            <size>15.6 inch</size>
+            <color>White</color>
+            <quantity>20</quantity>
+            <unit_price currency="Euros">796</unit_price>
+            <discount>false</discount>
+        </product>
+        <product code="000-26">
+            <category>Laptops</category>
+            <name>Clevo</name>
+            <description>32 GB laptop with 128 GB storage capacity.</description>
+            <size>15.6 inch</size>
+            <color>White</color>
+            <quantity>20</quantity>
+            <unit_price currency="Euros">456</unit_price>
+            <discount>false</discount>
+        </product>
+        <product code="000-27">
+            <category>Laptops</category>
+            <name>Evoo</name>
+            <description>32 GB laptop with 128 GB storage capacity.</description>
+            <size>15.6 inch</size>
+            <color>White</color>
+            <quantity>20</quantity>
+            <unit_price currency="Euros">99.99</unit_price>
+            <discount>false</discount>
+        </product>
+        <product code="000-28">
+            <category>Laptops</category>
+            <name>Digital Storm</name>
+            <description>32 GB laptop with 128 GB storage capacity.</description>
+            <size>15.6 inch</size>
+            <color>White</color>
+            <quantity>20</quantity>
+            <unit_price currency="Euros">999.99</unit_price>
+            <discount>false</discount>
+        </product>
+    </products>
+</company>
